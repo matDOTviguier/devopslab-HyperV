@@ -9,4 +9,6 @@ Hosts are based on minimal debian stable amd64 dvd images with a single aio 16G 
 
 Once connected, install **curl** (in order to download scripts) and **ssh** (in order ... *well, you should kown why*).
 
-`apt install ssh curl`  
+`apt -y update`
+`apt -y upgrade`
+`apt -y install ssh curl`  
