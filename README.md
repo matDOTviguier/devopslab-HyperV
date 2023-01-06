@@ -15,3 +15,4 @@ Once connected, edit your `etc/apt/sources.list` file in order to remove the CDR
 
 `apt -y install ssh curl`  
 
+Then fit your `/etc/ssh/sshd_config` file in order to adapt it to your network. At least, use a reserved DHCP lease and personalize the ssh port, allow root access or not, create a NAT rule on your box/router, and so on ...
